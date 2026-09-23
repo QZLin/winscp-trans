@@ -1,10 +1,10 @@
 {
-    "version": "6.5.6",
+    "version": "6.5.7",
     "description": "Install chs translations of winscp",
     "homepage": "https://winscp.net/translations.php",
     "license": "GPL-3.0-or-later",
-    "url": "https://winscp.net/translations/dll/6.5.6/chs.zip",
-    "hash": "252fe983e5b88058a51159635adb7a7cce503b1373e529440f3d172641fa4d28",
+    "url": "https://winscp.net/translations/dll/6.5.7/chs.zip",
+    "hash": "1100748221e570b11dc1e22425861ed05e8868afb28d28944923efda69bdaa0b",
     "post_install": [
         "if(Test-Path \"$(appdir winscp)\\$version\\WinSCP.exe\"){Copy-Item \"$original_dir\\WinSCP.chs\" \"$(appdir winscp)\\$version\\\"}else{Write-Error \"Please install winscp first\"}"
     ],
